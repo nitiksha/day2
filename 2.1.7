@@ -1,0 +1,26 @@
+g. Can you overload a method with the same return type? Explain your
+answer with proper logic.
+
+Ans)Yes but the parameter list should b different,atleast the order of parameter should b reversed.
+example
+Case1:
+       float mymethod(int a, float b)
+       float mymethod(float var1, int var2)
+
+Result: Runs Perfectly fine. Valid case for overloading. 
+Sequence of the data types are different, first method is
+having (int, float) and second is having (float, int).
+
+Case 2:
+
+int mymethod(int a, int b)
+int mymethod(int num)  
+
+Result: Runs Perfectly fine. Valid case for overloading. Here number of arguments are different.
+
+Case 4:
+
+float mymethod(int a, float b)
+float mymethod(float var1, int var2)
+Result: Runs Perfectly fine. Valid case for overloading. 
+Sequence of the data types are different, first method is having (int, float) and second is having (float, int).
