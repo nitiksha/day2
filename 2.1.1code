@@ -1,0 +1,24 @@
+a. Write a Java code with the class name, “acad,” and a method called “main.”
+Hard code the program with two integers and print the sum of those two
+integers.
+
+import java.util.*;
+
+
+class acad
+{
+public static void main(String[] args)
+{   
+     
+	int a=456;
+	int b=100;
+	int sum=a+b;
+	System.out.println(sum);
+	
+}         
+	
+
+}  
+
+
+
