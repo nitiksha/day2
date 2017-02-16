@@ -1,0 +1,37 @@
+d. Write a program to accept two numbers from “stdin” and find all the odd
+as well as even numbers present in between them.
+
+import java.util.*;
+
+
+class acad
+{
+public static void main(String[] args)
+{     
+	StringBuffer a1=new StringBuffer();//buffer to add even no
+	StringBuffer b1=new StringBuffer();//buffer to add ODD no
+     Scanner s=new Scanner(System.in);
+	int a=s.nextInt();
+	int b=s.nextInt();
+	for(int i=a;i<=b;i++)
+	{
+		if((i%2)==0)
+		{a1.append(i);
+		a1.append(" ");
+		}
+		else
+		{
+			b1.append(i);
+			b1.append(" ");
+		}
+	}
+	System.out.println("The Even number are "+a1);
+	System.out.println("The Odd number are "+b1);
+	
+}         
+	
+
+}  
+
+
+
