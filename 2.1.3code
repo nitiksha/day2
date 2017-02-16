@@ -1,0 +1,35 @@
+c. Write a program with the method name, “sum()” that accepts two
+parameters from the user and print the sum of those two numbers. The
+output format should be:
+First number is:
+Second number is:
+Sum is:
+
+
+import java.util.*;
+
+
+class acad
+{
+public static void main(String[] args)
+{   
+     Scanner s=new Scanner(System.in);
+	int a=s.nextInt();
+	int b=s.nextInt();
+	sum(a,b);
+	
+}
+
+ static void sum(int a, int b) {
+	// TODO Auto-generated method stub
+	int sum=a+b;
+	System.out.println("First number is:"+a);
+	System.out.println("Second number is:"+b);
+	System.out.println("Second number is:"+sum);
+}         
+	
+
+}  
+
+
+
